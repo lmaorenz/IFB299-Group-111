@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Parking skeleon</title>
+        <meta name="description" content="Index screen">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="header">
+            <img src="pics/logo.png" alt="Anchor parking and fine management"></image>
+        </div>
+        <div id="container">
+            <div id="body">
+                <form id="violationPark">
+                    <h2>Time and Date</h2>
+                        <input type="time" name="timeViol">
+                        <input type="date" name="dateViol">
+                    <br>
+                    <h2>Vehcile Information</h2>
+                        <select name="violation">
+                            <option>Car</option>
+                            <option>Bike</option>
+                        </select>
+                    <h2>License Plate</h2>
+                        <input type="text" name="plate">
+                    <h2>Valid Permit?</h2>
+                        <input type="radio" name="permit" value="yes"> Yes<br>
+                        <input type="radio" name="permit" value="no"> No<br>
+                    <h2>Permit ID number</h2>
+                        <input type="text" name="permID">
+                    <br>
+                    <input type="button" name="Submit" value="Submit">
+                </form>
+                
+            </div>
+        </div>
+    </body>
+</html>
