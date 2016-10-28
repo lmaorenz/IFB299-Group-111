@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://anchorcollege.x10host.com/" />
+<title>stories testing</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">stories testing</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=First</td>
+	<td>Student</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Last</td>
+	<td>access</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Username</td>
+	<td>SAtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Email</td>
+	<td>SAtest@test.com.au</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Mobile</td>
+	<td>04111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Password</td>
+	<td>SAtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;Confirm Password&quot;]</td>
+	<td>SAtest</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=department</td>
+	<td>label=student</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Mobile number is invalid, must be 10 numbers in length</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Mobile</td>
+	<td>041111111111</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Mobile number is invalid, must be 10 numbers in length</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Mobile</td>
+	<td>0411111111</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Password must be 8 characters long</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Password</td>
+	<td>SAtest12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;Confirm Password&quot;]</td>
+	<td>SAtest123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Password</td>
+	<td>SAtest123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=create</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
