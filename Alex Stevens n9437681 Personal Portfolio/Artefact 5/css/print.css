@@ -1,0 +1,143 @@
+
+html{
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+body  {
+    margin: 0;  
+    height:700px;
+    padding:0;
+}
+h1  {
+    text-align: center;
+}
+
+
+#container  {
+    width: 90%;
+    height: auto;
+    margin:auto;
+    background-color:white;
+    padding:0;
+    border-left: 2px solid #bbb;
+    border-right: 2px solid #bbb;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#headerLogin  {
+    width:100%;
+    height:320px;
+    padding:0;
+    text-align: center;
+    float: left;
+    position: relative;
+    
+    z-index: 1;
+}
+#header  {
+    width:100%;
+    height:120px;
+    padding:0;
+    text-align: center;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+#headerLogin img  {
+    margin-top: 60px; 
+    
+}
+#header img  {
+    height: 100px;
+    width: auto;
+    margin-top: 5px; 
+    margin-right:10%;
+    float:right;
+}
+#nav  {
+    float:left;
+    width:100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+li:nth-child(1)  {
+    padding-left: 50px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+#loginLeft   {
+    width: 50%;
+    text-align: right;
+    height:auto;
+    float:left;
+    padding:0;
+    margin:0;
+}
+#loginLeft h1  {
+    text-align: right;
+    padding-right:100px;
+}
+#loginLeft form  {
+    padding-right: 100px;   
+    padding-top: 30px;
+    float:right;
+}
+
+#loginRight   {
+    width: 50%;
+    height:auto;
+    float:right;
+    padding:0;
+    margin:0;
+    
+}
+#loginRight h1  {
+    text-align: left;
+    padding-left:100px;
+}
+#loginRight form  {
+    padding-left: 100px;   
+    padding-top: 30px;
+    float:left;
+}
+
+#body   {
+    width: 940px;
+    height:auto;
+    margin: 10px;
+    float:left;
+    padding 0;
+}
+.menuSelectBox  {
+    width:100%;
+    height: 100px;
+    padding: 0;
+    float:left;
+    display: block;
+}
+.menuSelectBox a  {
+    padding: 0;
+    display: block;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    margin:0 auto;
+}
+
+
